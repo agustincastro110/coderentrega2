@@ -39,3 +39,29 @@ body {
         font-size: 2rem;
     }
 }
+
+
+.accordion-button {
+    background-color: black;
+    color: white;
+}
+
+.accordion-body {
+    background-color: black;
+    color: white;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+.accordion-item {
+    border: 1px solid white;
+}
